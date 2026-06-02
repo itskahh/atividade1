@@ -78,12 +78,4 @@ body {
   .botao:last-child {
     border-radius: 0 40px 0 0;
 <button class="botao ativo">Cursos na Alura</button>
-<button class="botao">Criar projetos em Javascript</button>
-<
-  }
-}
-
-<button class="botao ativo">Cursos na Alura</button>
-<button class="botao">Criar projetos em Javascript</button>
-<button class="botao">Criar um portfolio</button>
-<button class="botao">Atualizar meu currículo</button>
+<button 
