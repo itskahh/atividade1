@@ -36,7 +36,7 @@ body {
 }
 
 .botao {
-  font-family: "Crakra Petch", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   background-color: var(--botao-inativo);
   color: var(--branco);
   display: flex;
@@ -80,26 +80,29 @@ body {
   font-size: 28px;
   text-align: center;
 }
-
-.aba-conteudo-titulo-segundario {
+.aba-conteudo-titulo-secundario {
   text-align: center;
   color: var(--verde);
   text-transform: uppercase;
+}
+
+.contador {
+  font-size: 20px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
 
   .botoes {
     display: flex;
-
-
-    .botao:first-child {
-      border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-      border-radius: 0 40px 0 0;
-    }
-
   }
+
+  .botao:first-child {
+    border-radius: 40px 0px 0 0;
+  }
+
+  .botao:last-child {
+    border-radius: 0 40px 0 0;
+  }
+
 }
